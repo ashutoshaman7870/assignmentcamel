@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+  id VARCHAR(10) NOT NULL,
+  userName VARCHAR(100) NOT NULL,
+  userPassword VARCHAR(100) NOT NULL,
+  isDeleted  VARCHAR (100) NOT NULL
+);
